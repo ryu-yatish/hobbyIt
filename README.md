@@ -40,3 +40,12 @@ npm run tauri build
 ```
 
 Build outputs are generated under `src-tauri/target/release/bundle`.
+
+### macOS DMG (from a clean Mac)
+
+```bash
+chmod +x scripts/build-macos-dmg.sh
+./scripts/build-macos-dmg.sh
+```
+
+See [docs/macos-dmg-build.md](docs/macos-dmg-build.md) for manual steps and troubleshooting.
